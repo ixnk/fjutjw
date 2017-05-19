@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp">
+
+			<TextView
+				android:text="学年:"
+				android:textSize="16sp"
+				android:layout_gravity="center_vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+			<Spinner
+				android:id="@+id/spinner_year"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:layout_height="wrap_content"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp">
+
+			<TextView
+				android:text="学期:"
+				android:textSize="16sp"
+				android:layout_gravity="center_vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+			<Spinner
+				android:id="@+id/spinner_semester"
+				android:layout_width="match_parent"
+				android:layout_gravity="center_vertical"
+				android:layout_height="wrap_content"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp">
+
+			<TextView
+				android:text="年级:"
+				android:textSize="16sp"
+				android:layout_gravity="center_vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+			<Spinner
+				android:id="@+id/spinner_grade"
+				android:layout_width="match_parent"
+				android:layout_gravity="center_vertical"
+				android:layout_height="wrap_content"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp">
+
+		<TextView
+			android:text="学院名称:"
+			android:textSize="16sp"
+			android:layout_gravity="center_vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<Spinner
+			android:id="@+id/spinner_academy"
+			android:layout_width="match_parent"
+			android:layout_gravity="center_vertical"
+			android:layout_height="wrap_content"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp">
+
+		<TextView
+			android:text="专业:"
+			android:textSize="16sp"
+			android:layout_gravity="center_vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<Spinner
+			android:id="@+id/spinner_mojar"
+			android:layout_width="match_parent"
+			android:layout_gravity="center_vertical"
+			android:layout_height="wrap_content"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp">
+
+		<TextView
+			android:text="班级:"
+			android:textSize="16sp"
+			android:layout_gravity="center_vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<Spinner
+			android:id="@+id/spinner_class"
+			android:layout_width="match_parent"
+			android:layout_gravity="center_vertical"
+			android:layout_height="wrap_content"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

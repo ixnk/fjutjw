@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">工软教务系统</string>
+    <string name="drawerLayout_open_string">打开</string>
+    <string name="drawerLayout_close_string">关闭</string>
+	
+	<string-array name="evaluating_degree">
+        <item>优秀</item>
+        <item>良好</item>
+        <item>中等</item>
+        <item>及格</item>
+		<item>不及格</item>
+		<item>未评</item>
+    </string-array>
+	
+	<string-array name="evaluating_indicator">
+        <item>态度和教风</item>
+        <item>仪表和技能</item>
+        <item>教学信息量</item>
+        <item>教学难度</item>
+		<item>教学进度</item>
+		<item>知识表达</item>
+		<item>培养动手和实践能力</item>
+		<item>互动教学</item>
+		<item>知识扩展</item>
+		<item>作业及练习</item>
+    </string-array>
+	
+	<string-array name="evaluating_description">
+        <item>老师对待教学认真负责、对同学们要求严格、教风严谨、每节课出勤准时、课堂中从无接听电话或中途离开教室等情况发生</item>
+        <item>老师口齿清楚、仪表整洁、教学板书工整、多媒体课件的制作和使用恰当</item>
+        <item>老师对每节课教学内容的多少安排合理，大部分同学能够感觉到所授的知识对自己有帮助，且基本能够消化每节课老师所授知识</item>
+        <item>老师教学难度适中，讲解通俗易懂，大部分同学能够理解所授知识</item>
+		<item>老师对学期课程进度安排合理，对每章节内容所需的讲授时间分配科学</item>
+		<item>老师授课时条理清楚、概念准确、能循序渐进、教学的重点内容突出</item>
+		<item>老师能较好地调动同学们的上课积极性、会启发思维、引导和培养动手能力，在实验课上指导认真</item>
+		<item>你对本课程教学质量的整体评价如何？A.优秀;B.教满意;C.一般;D.不满意;E.很不满意.</item>
+		<item>老师有推荐与所学科目有关的课外参考书目或参考资料，或有在课堂上增加一些同学们感兴趣的课外知识，丰富同学们的见识</item>
+		<item>老师有布置必要的作业，并能及时进行检查、指导，有认真批改，对易错的部分有重点进行讲解</item>
+    </string-array>
+	
+	
+    <!--ActivityName-->
+    <string name="login_activity_name">登录</string>
+    <string name="course_activity_name">课表查询</string>
+    <string name="library_activity_name">图书查询</string>
+    <string name="score_activity_name">成绩查询</string>
+    <string name="person_info_activity_name">个人信息</string>
+    <string name="update_password_activity_name">修改密码</string>
+    <string name="grade_score_activity_name">等级考试成绩查询</string>
+
+    <!--IntenetError 请求网络错误的错误信息-->
+    <string name="get_data_error">获取失败,请检查网络</string>
+    <string name="seach_book_error">搜索失败,请检查网络</string>
+    <!--isOnLoadingText 正在加载的提示信息-->
+    <string name="isLogining">正在登录...</string>
+    <string name="isLoddingData">正在努力读取数据...</string>
+    <!--LoginError  登录错误的提示信息-->
+    <string name="username_error">用户名不能为空</string>
+    <string name="password_error">密码不能为空</string>
+    <string name="checkCode_error">验证码不能为空</string>
+    <string name="login_error">登陆失败,请检查网络</string>
+    <!--AboutApp    关于App-->
+    <string name="about_author">By:Renen</string>
+    <string name="about_email">Email:582733253@qq.com</string>
+    <string name="about_version">版本:</string>
+    <!--DialogMessage  对话框文本信息-->
+    <string name="dialog_choose_year_name">请选择要查询的学年学期</string>
+    <string name="dialog_PositiveButton_text">确定</string>
+    <string name="dialog_NegativeButton_text">取消</string>
+    <!--exit_app 退出App提示文本-->
+    <string name="exit_app">再按一次退出</string>
+    <!--drawerlayout_item_text 抽屉菜单项的文本信息-->
+    <string name="drawerlayout_person_info_item_name">个人信息</string>
+    <string name="drawerlayout_update_password_item_name">修改密码</string>
+    <!--updatePasswordMessage 修改密码提示文本-->
+    <string name="update_password_old_password_error">旧密码不能为空</string>
+    <string name="update_password_new_password_error">新密码不能为空</string>
+    <string name="update_password_new_password2_error">确认密码不能为空</string>
+    <string name="update_password_password_is_not_same">两次密码不一致</string>
+    <string name="update_error">修改失败,请检查网络连接</string>
+    <string-array name="library_search_type">
+        <item>书名</item>
+        <item>作者</item>
+        <item>ISBN</item>
+        <item>分类号</item>
+    </string-array>
+    <string-array name="library_search_values">
+        <item>正题名</item>
+        <item>责任者</item>
+        <item>标准编号</item>
+        <item>索取号</item>
+    </string-array>
+    <item name="book_detail_url" type="id"></item>
+    <item name="book_name" type="id"></item>
+</resources>
