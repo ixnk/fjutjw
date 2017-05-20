@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:layout_marginLeft="18sp">
+
+		<Spinner
+			android:id="@+id/spinner_date_start"
+			android:layout_width="match_parent"
+			android:layout_gravity="center_vertical"
+			android:layout_height="wrap_content"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp">
+
+		<TextView
+			android:text="至"
+			android:textSize="16sp"
+			android:layout_gravity="center_vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<Spinner
+			android:id="@+id/spinner_date_end"
+			android:layout_width="match_parent"
+			android:layout_gravity="center_vertical"
+			android:layout_height="wrap_content"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp">
+
+			<TextView
+				android:text="星期"
+				android:textSize="16sp"
+				android:layout_gravity="center_vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+			<Spinner
+				android:id="@+id/spinner_week_day"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:layout_height="wrap_content"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp">
+
+			<Spinner
+				android:id="@+id/spinner_week_divide"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:text="周"
+			android:textSize="16sp"
+			android:layout_gravity="center_vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<Spinner
+			android:id="@+id/spinner_lesson"
+			android:layout_width="match_parent"
+			android:layout_gravity="center_vertical"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
